@@ -1,4 +1,3 @@
-import java.util.Objects;
 
 public class Data implements Comparable<Data>{
     private int dia;

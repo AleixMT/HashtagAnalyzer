@@ -5,7 +5,7 @@ import java.util.InputMismatchException;
 
 
 public class Main {
-    static Scanner teclat=new Scanner(System.in);
+    static Scanner teclat = new Scanner(System.in);
     /**
      * Funcio principal del programa
      * @param args
@@ -71,8 +71,7 @@ public class Main {
     public static void consultes(TADcjtEtiquetes tad){ //mostra les consultes
         int opt = 0, dia, mes, any;
         long ti = 0, tf = 0; // temps per a mesurar l'eficiencia de l'algorisme
-        boolean exit = false;
-        String entry = "", nomUsuari = "", missatge = "", etiqueta = ""; //entrada generica de teclat.
+        String nomUsuari = "", missatge = "", etiqueta = ""; //entrada generica de teclat.
         while (true)  // Sortirem del programa amb la opcio del menu
         {
             System.out.println("Quina operacio vols fer?");

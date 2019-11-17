@@ -1,4 +1,4 @@
-import java.util.Objects;
+
 
 public class Etiqueta implements Comparable<Etiqueta>{
     private String etiqueta;
